@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button id="mybutton">click name</button>
+	<script type="text/javascript">
+		var x=document.getElementById("mybutton");
+		x.addEventListener("click",myfunction)
+		x.addEventListener("click",myfunction1)
+		x.addEventListener("click",myfunction2)
+		function myfunction() 
+		{
+			alert("HelloWorld");
+		}
+		function myfunction1() 
+		{
+			alert("World");
+		}
+		function myfunction2() 
+		{
+			alert("This function is also executed");
+		}
+	</script>
+</body>
+</html>
